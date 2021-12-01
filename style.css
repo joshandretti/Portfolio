@@ -1,0 +1,60 @@
+@font-face {
+    src:url(fonts/Akira\ Expanded\ Demo.otf);
+    font-family: akira;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'akira', sans-serif;
+    background-color: black;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#navbar {
+    padding-top: 8px;
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: center;
+    display: block;
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+.left-nav {
+    float: left;
+}
+
+.right-nav {
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#showcase {
+}
+
+.picture {
+   width: 450px;
+}
+
