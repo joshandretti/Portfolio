@@ -20,41 +20,14 @@ a {
     text-decoration: none;
 }
 
-#navbar {
-    padding-top: 8px;
-    font-size: 20px;
-    padding-left: 10px;
-    text-align: center;
-    display: block;
-}
-
-#navbar ul {
-    list-style: none;
-}
-
-.left-nav {
-    float: left;
-}
-
-.right-nav {
-    float: right;
-}
-
-#navbar ul li {
-    float: left;
-}
-
-#navbar ul li a {
-    display: block;
-    padding: 5px;
-    text-align: center;
-    font-size: 18px;
-}
-
-#showcase {
+h2 {
+    color: #ffffff;
 }
 
 .picture {
    width: 450px;
 }
 
+.container {
+    display: flex;
+}
