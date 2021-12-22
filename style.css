@@ -24,21 +24,21 @@ h2 {
   font-size: 105gipx;
 }
 
-.picture {
-  width: 850px;
-  height: 890px;
+.hero-section {
   display: flex;
-  justify-content: right;
-  /* margin-left: 270px; */
+  justify-content: ;
 }
 
-.words {
+.hero-left {
   margin-top: 300px;
   margin-left: 50px;
   align-items: flex-start;
 }
 
-.container {
+.hero-image {
+  width: 150px;
+  height: 160px;
   display: flex;
-  justify-content: ;
+  justify-content: right;
+  /* margin-left: 270px; */
 }
