@@ -43,10 +43,3 @@ h2 {
   /* margin-left: 270px; */
 }
 
-.wallpaper {
-  background-image: url("./images/space.png");
-  background-position: center;
-  background-size: cover;
-  opacity: 0.2;
-  position: fixed;
-}
