@@ -19,6 +19,7 @@ a {
   text-decoration: none;
 }
 
+
 h2 {
   color: #ffffff;
   font-size: 105gipx;
@@ -36,8 +37,8 @@ h2 {
 }
 
 .hero-image {
-  width: 150px;
-  height: 160px;
+  width: 120px;
+  height: 130px;
   display: flex;
   justify-content: right;
   /* margin-left: 270px; */
