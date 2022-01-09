@@ -11,6 +11,11 @@
 
 body {
   font-family: "akira", sans-serif;
+  background-image: url(../images/space.png);
+  background-repeat: no-repeat;
+  background-size: ;
+  background-position: ;
+  opacity: ;
   background-color: black;
 }
 
@@ -40,8 +45,21 @@ h2 {
   width: 120px;
   height: 130px;
   display: flex;
-  justify-content: right;
+  justify-content: center;
   margin-left: 30px;
   margin-top: 20px;
+}
+
+.contact-btn {
+  display: flex;
+  justify-content: ;
+  align-items: ;
+}
+
+.header-logo {
+  margin-right: 25px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
