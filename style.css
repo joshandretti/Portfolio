@@ -50,3 +50,16 @@ h2 {
   font-size: 40px;
   color: #660C0C;
 }
+
+.contact-btn {
+  position: absolute;
+  top: 95%;
+  margin-left: 100px;
+  /* left: 3%; */
+}
+
+.footer-logo {
+  position: absolute;
+  top: 93%;
+  left: 87%;
+}
