@@ -41,7 +41,6 @@ h2 {
   top: 5%;
   z-index: -1;
   opacity: 0.3;
-
 }
 
 .hello {
@@ -51,10 +50,28 @@ h2 {
   color: #660C0C;
 }
 
+.I-am {
+  position: absolute;
+  top: 50%;
+  font-size: 40px;
+  left: 36%;
+}
+
+.Frontend-d {
+  position: absolute;
+  top: 53%;
+}
+
+.Atlanta {
+  position: absolute;
+  top: 55%;
+}
+
+
 .contact-btn {
   position: absolute;
   top: 95%;
-  margin-left: 100px;
+  margin-left: 50px;
   /* left: 3%; */
 }
 
