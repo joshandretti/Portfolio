@@ -14,12 +14,6 @@ body {
   background-color: black;
 }
 
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-
 h2 {
   color: #ffffff;
   /* font-size: 105gipx; */
@@ -50,23 +44,20 @@ h2 {
   color: #660C0C;
 }
 
-.I-am {
-  position: absolute;
-  top: 50%;
-  font-size: 40px;
-  left: 36%;
-}
-
 .Frontend-d {
   position: absolute;
   top: 53%;
 }
 
-.Atlanta {
+.UX {
   position: absolute;
   top: 55%;
 }
 
+.Atlanta {
+  position: absolute;
+  top: 57%;
+}
 
 .contact-btn {
   position: absolute;
