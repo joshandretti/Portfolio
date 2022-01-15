@@ -11,11 +11,11 @@
 
 body {
   font-family: "akira", sans-serif;
-  background-color: black;
+  background-color: #000000;
 }
 
 h2 {
-  color: #ffffff;
+  color: #e0d7dc;
   /* font-size: 105gipx; */
 }
 
@@ -32,7 +32,7 @@ h2 {
   /* display: flex;
   justify-content: center; */
   position: absolute;
-  top: 5%;
+  top: 15%;
   z-index: -1;
   opacity: 0.3;
 }
@@ -42,21 +42,31 @@ h2 {
   top: 50%;
   font-size: 40px;
   color: #660C0C;
+  left: 4%;
+  font-size: 50px;
 }
 
 .Frontend-d {
   position: absolute;
   top: 53%;
+  color: #B1AAAA;
+  font-size: 105px;
+  left: 4%;
 }
 
 .UX {
   position: absolute;
-  top: 55%;
+  top: 60%;
+  left: 22.6%;
+  color: #B1AAAA;
+  font-size: 105px;
 }
 
 .Atlanta {
   position: absolute;
-  top: 57%;
+  top: 67%;
+  left: 47%;
+  font-size: 30px;
 }
 
 .contact-btn {
