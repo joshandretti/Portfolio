@@ -29,15 +29,20 @@ h2 {
 }
 
 .space-img {
-  /* display: flex;
-  justify-content: center; */
   position: absolute;
   top: 15%;
   z-index: -1;
   opacity: 0.3;
 }
 
+.hero-left {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
 .hello {
+
   position: absolute;
   top: 50%;
   font-size: 40px;
@@ -73,7 +78,10 @@ h2 {
   position: absolute;
   top: 95%;
   margin-left: 50px;
-  /* left: 3%; */
+  font-size: 25px;
+  width: 360px;
+  height: 60px;
+  background-color: #660C0C;
 }
 
 .footer-logo {
