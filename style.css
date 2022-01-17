@@ -36,14 +36,16 @@ h2 {
 }
 
 .hero-left {
-display: flex;
-flex-direction: column;
-justify-content: center;
+  position: absolute;
+  top: 40%;
+  left: 4%;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
 }
 
 .hello {
-
-  position: absolute;
+  /* position: absolute; */
   top: 50%;
   font-size: 40px;
   color: #660C0C;
@@ -52,31 +54,33 @@ justify-content: center;
 }
 
 .Frontend-d {
-  position: absolute;
-  top: 53%;
   color: #B1AAAA;
   font-size: 105px;
-  left: 4%;
 }
 
 .UX {
-  position: absolute;
-  top: 60%;
-  left: 22.4%;
+  display: flex;
+  justify-content: flex-end;
   color: #B1AAAA;
   font-size: 105px;
 }
 
 .Atlanta {
-  position: absolute;
-  top: 67%;
-  left: 47%;
+  display: flex;
+  justify-content: flex-end;
   font-size: 30px;
 }
 
-.contact-btn {
+.bottom {
   position: absolute;
   top: 95%;
+  display: flex; 
+  justify-content: center;
+}
+
+.contact-btn {
+  /* position: absolute;
+  top: 95%; */
   margin-left: 50px;
   font-size: 25px;
   width: 360px;
@@ -85,7 +89,5 @@ justify-content: center;
 }
 
 .footer-logo {
-  position: absolute;
-  top: 93%;
-  left: 87%;
+  background-color: teal;
 }
