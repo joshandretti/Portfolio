@@ -73,21 +73,24 @@ h2 {
 
 .bottom {
   position: absolute;
-  top: 95%;
+  top: 90%;
   display: flex; 
   justify-content: center;
 }
 
 .contact-btn {
-  /* position: absolute;
-  top: 95%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: 50px;
-  font-size: 25px;
+  font-size: 35px;
   width: 360px;
-  height: 60px;
+  height: 100px;
   background-color: #660C0C;
+  border-radius: 50px;
 }
 
 .footer-logo {
   background-color: teal;
+
 }
