@@ -75,7 +75,7 @@ h2 {
   position: absolute;
   top: 90%;
   display: flex;
-  justify-content: ;
+
 }
 
 .contact-btn {
@@ -91,7 +91,6 @@ h2 {
 }
 
 .footer-logo {
-  background-color: teal;
-  display: flex;
-  justify-content: flex-end;
+  position: absolute;
+  left: 2500px;
 }
