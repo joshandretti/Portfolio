@@ -137,11 +137,21 @@ span {
   color: #B1AAAA;
 }
 
-.HikeJosh {
-  /* display: none; */
-  width: 450px;
-  height: 600px;
+.About-Section {
   position: absolute;
   top: 120%;
   left: 10%;
+  display: flex;
+  /* gap: 20px; */
+}
+
+.HikeJosh {
+  width: 450px;
+  height: 600px;
+}
+
+.Bio {
+  color: #e0d7dc;
+  margin-right: 50px;
+  margin-left: 100px;
 }
