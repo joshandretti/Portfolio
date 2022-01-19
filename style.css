@@ -148,6 +148,14 @@ span {
 .HikeJosh {
   width: 450px;
   height: 600px;
+} 
+
+.Red {
+  top: 7%;
+  left: 5%;
+  position: absolute;
+  z-index: -1;
+
 }
 
 .Bio {
