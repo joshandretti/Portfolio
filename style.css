@@ -11,7 +11,7 @@
 
 body {
   font-family: "akira", sans-serif;
-  background-color: #0C0C0C;
+  background-color: #030202;
 }
 
 h2 {
@@ -24,7 +24,7 @@ header {
 }
 
 ul {
-
+  margin-right: 25px;
 }
 
 ul li {
@@ -42,6 +42,10 @@ ul li a {
   color: #e0d7dc;
 }
 
+ul li a:hover {
+  color: #660c0c;
+}
+
 .hero-image {
   display: flex;
   justify-content: flex-start;
@@ -52,11 +56,11 @@ ul li a {
 }
 
 .space-img {
-  display: none;
+  display: flex;
   position: absolute;
   top: 15%;
   z-index: -1;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .hero-left {
@@ -95,8 +99,13 @@ span {
   font-size: 30px;
 }
 
+.button {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
+}
 
-/* .bottom {
+.Contact {
   position: absolute;
   top: 90%;
 }
@@ -106,9 +115,16 @@ span {
   justify-content: center;
   align-items: center;
   margin-left: 50px;
-  font-size: 35px;
+  font-size: 30px;
   width: 360px;
   height: 100px;
+  color: #E0D7DC;
+  border: none;
   background-color: #660C0C;
   border-radius: 50px;
+  font-family: "akira", sans-serif;
+}
+
+.contact-btn:hover {
+  color: #B1AAAA;
 }
