@@ -127,3 +127,12 @@ span {
 .contact-btn:hover {
   color: #B1AAAA;
 }
+
+.About {
+  display: flex;
+  
+}
+
+.HikeJosh {
+  display: none;
+}
