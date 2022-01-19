@@ -129,10 +129,19 @@ span {
 }
 
 .About {
-  display: flex;
-  
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 110%;
+  left: 1%;
+  color: #B1AAAA;
 }
 
 .HikeJosh {
-  display: none;
+  /* display: none; */
+  width: 450px;
+  height: 600px;
+  position: absolute;
+  top: 120%;
+  left: 10%;
 }
