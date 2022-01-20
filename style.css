@@ -174,15 +174,15 @@ span {
   color: #B1AAAA;
 }
 
-.AstroSS {
-  height: 450px;
-}
-
 .Project-Section {
   position: absolute;
   top: 240%;
   left: 10%;
   display: flex;
+}
+
+.AstroSS {
+  height: 450px;
 }
 
 .Astro-Title {
@@ -198,3 +198,21 @@ span {
   margin-left: 50px;
 }
 
+.Contact-area {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 330%;
+  left: 1%;
+  color: #B1AAAA;
+  
+}
+
+.Contact-Section {
+  position: absolute;
+  top: 340%;
+  left: 10%;
+}
+
+.contact-title {
+}
