@@ -33,7 +33,7 @@ header {
 }
 
 .space {
-  min-height: 80vh;
+  min-height: 85vh;
   width: 100%;
   background-image: url(./images/space.png);
   background-position: center;
@@ -212,6 +212,9 @@ span {
   position: absolute;
   top: 340%;
   left: 10%;
+  background-color: burlywood;
+  display: block;
+  justify-content: center;
 }
 
 .contact-title {
