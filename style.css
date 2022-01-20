@@ -108,7 +108,7 @@ span {
 
 .Contact {
   position: absolute;
-  top: 90%;
+  top: 95%;
 }
 
 .contact-btn {
@@ -130,7 +130,7 @@ span {
   color: #B1AAAA;
 }
 
-aside {
+.About {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   position: absolute;
@@ -144,7 +144,6 @@ aside {
   top: 120%;
   left: 10%;
   display: flex;
-  /* gap: 20px; */
 }
 
 .HikeJosh {
@@ -165,3 +164,37 @@ aside {
   margin-right: 50px;
   margin-left: 100px;
 }
+
+.Projects {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 230%;
+  left: 1%;
+  color: #B1AAAA;
+}
+
+.AstroSS {
+  height: 450px;
+}
+
+.Project-Section {
+  position: absolute;
+  top: 240%;
+  left: 10%;
+  display: flex;
+}
+
+.Astro-Title {
+  color: #B1AAAA;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.Astro-desc {
+  color: #E0D7DC;
+  margin-left: 50px;
+}
+
