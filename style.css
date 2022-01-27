@@ -198,6 +198,7 @@ span {
   margin-left: 50px;
 }
 
+
 .Contact-area {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
@@ -209,9 +210,20 @@ span {
 }
 
 .Contact-Section {
+  /* display: flex;
+  justify-content: center;
+  flex-flow: column;
   position: absolute;
   top: 340%;
-  left: 10%;
+  left: 10%; */
+  max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
 }
 
 .contact-title {
