@@ -32,7 +32,7 @@ header {
   height: 55px;
 }
 
-.space {
+.hero-section {
   min-height: 85vh;
   width: 100%;
   background-image: url(./images/space.png);
@@ -209,21 +209,14 @@ span {
   
 }
 
-.Contact-Section {
-  /* display: flex;
+.contact-me {
+  background-color: #B1AAAA;
+  display: flex;
   justify-content: center;
   flex-flow: column;
   position: absolute;
   top: 340%;
-  left: 10%; */
-  max-width: 968px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    row-gap: 2rem;
+  left: 10%;
 }
 
 .contact-title {
